@@ -62,7 +62,7 @@
 												return 5;
 											return scope.last_page;
 										}
-										return  scope.current_page + 2 < $cope.last_page ? scope.current_page + 2 : scope.last_page;
+										return  scope.current_page + 2 < scope.last_page ? scope.current_page + 2 : scope.last_page;
 										
 										
 									}
